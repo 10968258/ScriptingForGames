@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e37f5a5-91c8-48b2-a08b-da1c6ae2669a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Transformcontroller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Transformcontroller.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +77,11 @@
       <workItem from="1728431091768" duration="11000" />
       <workItem from="1728431183333" duration="47000" />
       <workItem from="1728431268655" duration="47000" />
+      <workItem from="1728578797271" duration="187000" />
+      <workItem from="1728579092240" duration="146000" />
+      <workItem from="1728579458460" duration="14000" />
+      <workItem from="1728579480358" duration="111000" />
+      <workItem from="1728579943048" duration="40000" />
     </task>
     <servers />
   </component>
