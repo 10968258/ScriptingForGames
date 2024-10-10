@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6e37f5a5-91c8-48b2-a08b-da1c6ae2669a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripting/.idea/workspace.xml" afterDir="false" />
@@ -24,6 +27,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -82,6 +89,14 @@
       <workItem from="1728579458460" duration="14000" />
       <workItem from="1728579480358" duration="111000" />
       <workItem from="1728579943048" duration="40000" />
+      <workItem from="1728595494126" duration="313000" />
+      <workItem from="1728595817618" duration="42000" />
+      <workItem from="1728595994829" duration="32000" />
+      <workItem from="1728596075409" duration="188000" />
+      <workItem from="1728596361345" duration="130000" />
+      <workItem from="1728596518263" duration="9000" />
+      <workItem from="1728596556075" duration="7000" />
+      <workItem from="1728596580738" duration="15000" />
     </task>
     <servers />
   </component>
