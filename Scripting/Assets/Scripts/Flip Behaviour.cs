@@ -4,29 +4,17 @@ using UnityEngine;
 
 public class FlipTransformBehaviour : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
+   public KeyCode Key1 = KeyCode.RightArrow, Key2 = KeyCode.LeftArrow;
+   public float direction1 = 0, direction2 = 180;
+   private void Update()
+   {
+      if (Input.GetKeyDown(Key1))
+      {
+         transform.rotation = Quaternion.Euler(0, direction1, 0);
+      }
 
-    private void Start()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
-    private void Update()
-    {
-        Flip();
-    }
-
-    private void Flip()
-    {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-
-        if (moveHorizontal > 0)
-        {
-            spriteRenderer.flipX = false; // Face right
-        }
-        else if (moveHorizontal < 0)
-        {
-            spriteRenderer.flipX = true; // Face left
-        }
-    }
+      if (!Input.GetKeyDown(Key2)) return;
+      transform.rotation = Quaternion.Euler(0, direction2, 0);
+   }
+   
 }
