@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e37f5a5-91c8-48b2-a08b-da1c6ae2669a" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Pixel Adventure 1/Assets/Background.meta" afterDir="false" />
@@ -494,6 +495,10 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Flip Behaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Flip Behaviour.cs" afterDir="false" />
+>>>>>>> 3541884a78654f9e78b209310f7a40acb1c6bf1e
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -596,6 +601,7 @@
       <workItem from="1729563224500" duration="2321000" />
       <workItem from="1729567552049" duration="18000" />
       <workItem from="1729567630491" duration="215000" />
+<<<<<<< HEAD
       <workItem from="1729567889346" duration="652000" />
       <workItem from="1730312125270" duration="651000" />
       <workItem from="1730312991955" duration="156000" />
@@ -608,6 +614,8 @@
       <workItem from="1730749557786" duration="423000" />
       <workItem from="1730750583486" duration="142000" />
       <workItem from="1730750804938" duration="818000" />
+=======
+>>>>>>> 3541884a78654f9e78b209310f7a40acb1c6bf1e
     </task>
     <servers />
   </component>
