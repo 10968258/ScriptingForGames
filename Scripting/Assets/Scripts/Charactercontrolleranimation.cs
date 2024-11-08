@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CharacterControllerAnimation : MonoBehaviour
 {
-    private Animator animator; // Declare animator variable
+    private Animator animator; 
 
     private void Start()
     {
-        animator = GetComponent<Animator>(); // Use the correct variable name
+        animator = GetComponent<Animator>(); 
     }
 
     private void Update()
@@ -18,26 +18,59 @@ public class CharacterControllerAnimation : MonoBehaviour
 
     private void HandleAnimations()
     {
-        // Check for horizontal input
+        
         if (Input.GetButtonDown("Fire2"))
         {
-            animator.SetTrigger("fall"); // Use correct variable name and remove "name:"
+            animator.SetTrigger("fall"); 
         }
         else
         {
-            animator.SetTrigger("Idle"); // Fix missing closing quote
+            animator.SetTrigger("Idle"); 
         }
 
-        // Check for jump input
-        if (Input.GetButtonDown("Jump")) // Remove the semicolon
+        if (Input.GetButtonDown("Jump")) 
         {
-            animator.SetTrigger("Jump"); // Use correct variable name and fix capitalization
+            animator.SetTrigger("Jump"); 
+        }
+        else 
+        {
+            animator.SetTrigger("Idle");
         }
 
-        // Check for wall jump input
         if (Input.GetButtonDown("Fire1"))
         {
-            animator.SetTrigger("Hit"); // Fix missing semicolon
+            animator.SetTrigger("Hit"); 
+        }
+        else
+        {
+            animator.SetTrigger("Idle"); 
+        }
+        
+        if (Input.GetButtonDown("Fire3"))
+        {
+            animator.SetTrigger("DoubleJump");
+        }
+        else
+        {
+            animator.SetTrigger("Idle");
+        }
+        
+        if (Input.GetButtonDown("Horizontal"))
+        {
+            animator.SetTrigger("Run"); 
+        }
+        else
+        {
+            animator.SetTrigger("Idle"); 
+        }
+        
+        if (Input.GetButtonDown("Fire4"))
+        {
+            animator.SetTrigger("WallJump"); 
+        }
+        else
+        {
+            animator.SetTrigger("Idle"); 
         }
     }
 }
